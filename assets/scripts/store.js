@@ -58,7 +58,7 @@ const state = {
   pages: [],
   articles: undefined,
   buildStatus: undefined,
-  basePath: location.hostname.endsWith('.github.io') ? '/scribouilli' : '',
+  basePath: '',
   theme: {
     css: undefined,
   },
